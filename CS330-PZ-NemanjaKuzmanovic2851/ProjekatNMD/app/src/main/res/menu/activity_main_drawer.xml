@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/profile"
+                    android:icon="@drawable/profile"
+                    android:title="My profile" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Movies">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_popular_movies"
+                    android:icon="@drawable/popularmovies"
+                    android:title="Popular Movies" />
+                <item
+                    android:id="@+id/nav_top_rated"
+                    android:icon="@drawable/toprated"
+                    android:title="Top Rated Movies" />
+                <item
+                    android:id="@+id/nav_upcoming"
+                    android:icon="@drawable/upcoming"
+                    android:title="Upcoming Movies" />
+                <item
+                    android:id="@+id/nav_now"
+                    android:icon="@drawable/now"
+                    android:title="Now Playing Movies" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Help">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/help"
+                android:icon="@drawable/helpd"
+                android:title="Help" />
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="Exit">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+
+</menu>
