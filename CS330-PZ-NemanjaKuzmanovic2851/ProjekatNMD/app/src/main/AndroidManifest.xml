@@ -43,7 +43,7 @@ debug/ and src/release/.
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCbtkbMWZWDVGUlSik49DxhcS3QaE_N9Ug" />
+            android:value="gMapsAPIKEY" />
 
         <activity
             android:name=".Activities.LoginActivity"
